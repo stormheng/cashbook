@@ -10,7 +10,7 @@ Vue2.6 + Vue-router + Vuex + TypeScript + Echarts.js + SVG
 
 ## 项目运行
 ```
-    git clone https://github.com/stormheng/mini-money.git
+    git clone https://github.com/stormheng/cashbook.git
     cd mini-money
     yarn install
     yarn serve
@@ -20,5 +20,5 @@ Vue2.6 + Vue-router + Vuex + TypeScript + Echarts.js + SVG
 
 
 #### 移动端可扫描下方二维码访问
-![扫描二维码访问应用](./cashbook.png)
+![扫描二维码访问应用](http://image.stormheng.com/cashbook.png)
 
