@@ -23,3 +23,16 @@ module.exports = {
         config.plugin('svg-sprite').use(require('svg-sprite-loader/plugin'), [{plainSprite: true}])
     }
 }
+
+//修改网页图标
+module.exports = {
+    pwa: {
+        iconPaths: {
+            favicon32: 'favicon.ico',
+            favicon16: 'favicon.ico',
+            appleTouchIcon: 'favicon.ico',
+            maskIcon: 'favicon.ico',
+            msTileImage: 'favicon.ico'
+        }
+    }
+};
