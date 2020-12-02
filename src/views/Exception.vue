@@ -1,16 +1,14 @@
 <template>
-    <div>404</div>
+  <h1>4 0 4</h1>
 </template>
 
 <script lang="ts">
-    import Vue from 'vue';
-    import {Component} from 'vue-property-decorator';
+import Vue from "vue";
+import { Component } from "vue-property-decorator";
 
-    @Component
-    export default class Exception extends Vue {
-    }
+@Component
+export default class Exception extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-
 </style>

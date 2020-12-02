@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
-  @import '~@/assets/styles/style.scss';
+@import "~@/assets/styles/style.scss";
 #app {
   font-family: $font-hei;
   font-size: 16px;
@@ -14,5 +14,4 @@
   text-align: center;
   color: #333333;
 }
-
 </style>

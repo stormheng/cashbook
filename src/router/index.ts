@@ -12,35 +12,42 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    redirect: '/bill'
+    redirect: '/money',
+    meta: { title: "记一笔" }
   },
   {
     path: '/bill',
     name: 'Bill',
+    meta: { title: "收支明细" },
     component: Bill
   },
   {
     path: '/money',
     name: 'Money',
+    meta: { title: "记一笔" },
     component: Money
   },
   {
     path: '/tags',
     name: 'Tags',
+    meta: { title: "添加类别" },
     component: Tags
   },
   {
     path: '/charts',
     name: 'Charts',
+    meta: { title: "图表统计" },
     component: Charts
   },
   {
     path: '/record/edit/:id',
     name: 'EditRecord',
+    meta: { title: "编辑记录" },
     component: EditRecord
   },
   {
     path: '*',
+    meta: { title: "404" },
     component: Exception
   }
 ]
