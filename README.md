@@ -9,10 +9,13 @@
 Vue2.6 + Vue-router + Vuex + TypeScript + Echarts.js + SVG
 
 ## 项目运行
-```
+```git
     git clone https://github.com/stormheng/cashbook.git
-    cd mini-money
+
+    cd cashbook
+
     yarn install
+    
     yarn serve
 ```
 
